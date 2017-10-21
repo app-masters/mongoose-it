@@ -18,6 +18,16 @@ test('Write and read String', () => {
     expect(data).toBe(stringData);
 });
 
+test('Write, read, update and delete a String', () => {
+    let key = "key6";
+    AMCache.set(key, stringData);
+    expect(AMCache.get(key)).toBe(stringData);
+    AMCache.set(key,stringData+stringData);
+    expect(AMCache.get(key)).toBe(stringData+stringData);
+    AMCache.del(key);
+    expect(AMCache.get(key)).toBe(undefined);
+});
+
 test('Write and read Simple Object', () => {
     let key = "key2";
     AMCache.set(key, simpleObject);
