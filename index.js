@@ -1,3 +1,3 @@
 module.exports = {
-    amCache: require('lib/amCache')
+    amCache: require('./lib/amCache')
 }
