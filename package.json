@@ -1,0 +1,40 @@
+{
+  "name": "mongoose-it",
+  "version": "1.0.0",
+  "description": "A Swiss Army Knife to work with mongoose, to easy find and cache data",
+  "main": "index.js",
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "mongoose",
+    "documents",
+    "cache documents",
+    "cache data",
+    "cache query"
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/app-masters/mongoose-it.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/app-masters/mongoose-it/issues"
+  },
+  "homepage": "https://github.com/app-masters/mongoose-it#readme",
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "node-cache": "^4.1.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "mongoose": "^4.12.3"
+  }
+}
