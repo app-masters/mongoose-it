@@ -1,15 +1,14 @@
-// const mongooseUtil = require('./mongooseUtil');
-// const restful = require('node-restful');
-// const mongoose = restful.mongoose;
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const AMCache = require('../lib/amCache');
 
-// Declaring all here
+// Declaring
 let stringData = "Tiago Gouvêa";
 let simpleObject = {name: stringData, age: 36};
 let objectArray = [stringData, simpleObject];
 let dbUrl = "mongodb://127.0.0.1/mongoose_it_test_db";
+
+// Let's test it
 
 test('Write and read String', () => {
     let key = "key1";

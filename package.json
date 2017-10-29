@@ -1,6 +1,6 @@
 {
-  "name": "mongoose-it",
-  "version": "1.0.0",
+  "name": "@app-masters/mongoose-it",
+  "version": "1.0.3",
   "description": "A Swiss Army Knife to work with mongoose that easy find and cache data",
   "main": "index.js",
   "keywords": [
@@ -23,14 +23,15 @@
     "type": "git",
     "url": "git+https://github.com/app-masters/mongoose-it.git"
   },
-  "author": "",
+  "author": "@TiagoGouvea",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/app-masters/mongoose-it/issues"
   },
   "homepage": "https://github.com/app-masters/mongoose-it#readme",
   "devDependencies": {
-    "jest": "^21.2.1"
+    "jest": "^21.2.1",
+    "node-restful": "^0.2.6"
   },
   "dependencies": {
     "lodash": "^4.17.4",
