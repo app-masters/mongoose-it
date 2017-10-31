@@ -1,6 +1,6 @@
 {
   "name": "@app-masters/mongoose-it",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Swiss Army Knife to work with mongoose that easy find and cache data",
   "main": "index.js",
   "keywords": [
