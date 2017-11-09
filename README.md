@@ -49,4 +49,10 @@ Internally used to provide cache methods to yours models.
 
 ### Util
 
-Some mongoose useful functions to easy our work. 
+Some mongoose useful functions to easy our work.
+
+
+
+# Change Log
+
+Check all changes on [changelog](CHANGELOG.md). 
