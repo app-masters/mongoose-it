@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.7] - 2017-11-24
+### Changed
+- Better validation on mongooseCacheIt
+
 ## [1.0.6] - 2017-11-9
 ### Added
 - This changelog

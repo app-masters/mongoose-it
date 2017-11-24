@@ -1,3 +1,4 @@
+// Same file at mongoose-it and node-lib - keep sync
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const ObjectId = mongoose.Schema.Types.ObjectId;
