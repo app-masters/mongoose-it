@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.9] - 2017-11-27
+### Changed
+- Fixed "findItOneCache" to every return one object
+
 ## [1.0.8] - 2017-11-24
 ### Changed
 - Fixed "findItByIdCache" on String Id
