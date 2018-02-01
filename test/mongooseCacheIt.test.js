@@ -126,14 +126,10 @@ test('FindItByIdCache', async () => {
 
 // Create
 test('Cache entity', async () => {
-    records = await connectionData.createRecords(1);
-    expect(records.length).toEqual(1);
-    // try to save not a entity
-
-
+    record = await connectionData.createRecords(1);
+    console.log(record);
+    expect(record).not.toBeNull();
     // Save just one
-    let record = records[0];
-    cache.cacheItEntity(record);
-
-
+    let saved = record.cacheIt();
+    expect(saved).toBe(true);
 });
