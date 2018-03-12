@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.13] - 2018-03-12
+### Fixed
+- Fixed isValidObjectId bug
+
 ## [1.0.11/1.0.12] - 2018-02-01
 ### Fixed
 - Amazing 21 seconds cache > fixed
